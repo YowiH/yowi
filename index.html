@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yowi Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yowi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div>
+                <img id="profile-picture" src="resources/Yowi_BowTie.jpg" alt="Yowi cat with a bow tie" onclick="playRRll()">
+                <audio id="rrll" src="resources/RRll.mp3"></audio>
+            </div>
+            <h2>About Me</h2>
+            <p>Hi there! My name is Yowi, and I&#39;m a young man who is passionate about a variety of things.</p>
+            <br>
+            <p>First and foremost, I&#39;m a programmer, and I love exploring the world of coding and creating innovative solutions to complex problems. I&#39;m always learning new programming languages and tools to expand my skills and stay up-to-date with the latest technologies.</p>
+            <br>
+            <p>In addition to programming, I have a deep love for the Japanese language and culture. I&#39;ve been studying Japanese for several years now, and I find the language and the country&#39;s customs to be incredibly fascinating. I&#39;m always looking for new ways to improve my language skills and connect with other Japanese learners and enthusiasts.</p>
+            <br>
+            <p>When I&#39;m not programming or studying Japanese, you can often find me playing music. I&#39;ve been playing the piano and the violin for many years, and I find that music is a great way to unwind and express my creativity. I&#39;ve even written and recorded some of my own songs, which has been a really rewarding experience.</p>
+            <br>
+            <p>Overall, I&#39;m someone who loves learning, exploring new things, and expressing myself creatively. I&#39;m always looking for new challenges and opportunities to grow, and I&#39;m excited to see where my passions will take me in the future!</p>
+
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <h3>Books</h3>
+                    <p>My collection of literature notes</p>
+                    <a href="https://yowi-books.netlify.app" target="_blank">View Project</a>
+                </li>
+                <li>
+                    <h3>Art</h3>
+                    <p>My creations</p>
+                    <a href="https://yowi-art.netlify.app" target="_blank">View Project</a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form data-netlify="true">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>Copyright &copy; Yowi</p>
+    </footer>
+</body>
+</html>
