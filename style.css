@@ -28,8 +28,6 @@ main section {
     margin-bottom: 4rem;
 }
 
-
-
 main #subpages li {
     list-style: none;
     margin: 1rem;
@@ -43,4 +41,9 @@ main #subpages li a {
     width: 100%;
     background-color: #B5A5D5;
     padding: 0.1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+main #subpages li a:hover {
+    background-color: #9F61c8;
 }
